@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: 
+    "s h"
+    "s m";
+}
+
+.header {
+    grid-area: h;
+    overflow: hidden;
+}
+
+.sidebar {
+    grid-area: s;
+    overflow-y: auto;
+}
+
+.main {
+    grid-area: m;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+
+
+table td {
+
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+/* Tablet: Sidebar più stretta, testi visibili */
+@media screen and (max-width: 1024px) {
+    body {
+        grid-template-columns: 200px 1fr;
+    }
+}
+
+/* Tablet piccolo: Sidebar ancora più stretta */
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 80px 1fr;
+    }
+}
+
+/* Mobile: Sidebar scompare completamente */
+@media screen and (max-width: 640px) {
+    body {
+        grid-template-columns: 0 1fr;
+        grid-template-areas: 
+        "h h"
+        "m m";
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,1 @@
+<a href="{{url()->previous()}}" class="flex gap-2 items-center"><x-ui.icon.arrow-left class="size-8" /> Indietro</a>
