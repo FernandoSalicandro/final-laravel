@@ -1,7 +1,7 @@
 #  GameVerse Backoffice
 
 ## Panoramica del Progetto
-
+## (qui per il frontend -> https://github.com/FernandoSalicandro/front-end-gameverse)
 **GameVerse Backoffice** CMS per store videogame, sviluppato con **Laravel 11** e **Tailwind CSS**. L'applicazione offre un'interfaccia amministrativa moderna e intuitiva per la gestione di un catalogo videogiochi, con funzionalità CRUD complete, sistema di autenticazione e API REST per l'integrazione con applicazioni frontend.
 
 ---
