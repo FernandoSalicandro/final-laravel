@@ -1,8 +1,49 @@
 #  GameVerse Backoffice
 
 ## Panoramica del Progetto
-## (qui per il frontend -> https://github.com/FernandoSalicandro/front-end-gameverse)
+
 **GameVerse Backoffice** CMS per store videogame, sviluppato con **Laravel 11** e **Tailwind CSS**. L'applicazione offre un'interfaccia amministrativa moderna e intuitiva per la gestione di un catalogo videogiochi, con funzionalità CRUD complete, sistema di autenticazione e API REST per l'integrazione con applicazioni frontend.
+
+🎮 **[Frontend GameVerse →](https://github.com/FernandoSalicandro/front-end-gameverse)**
+
+---
+
+## 📸 Screenshots del Progetto
+
+### 🖥️ Versione Desktop
+
+#### Login Page
+![Desktop Login](public/screenshots/desktop-login.png)
+
+#### Dashboard - Lista Giochi
+![Desktop Dashboard Index](public/screenshots/desktop-dashboard-index.png)
+
+#### Dettaglio Gioco
+![Desktop Dashboard Show](public/screenshots/desktop-dashboard-show.png)
+
+#### Modifica Gioco
+![Desktop Dashboard Edit](public/screenshots/desktop-dashboard-edit.png)
+
+#### Modal Conferma Eliminazione
+![Desktop Delete Modal](public/screenshots/desktop-delete-modal.png)
+
+### 📱 Versione Mobile
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+#### Login Mobile
+<img src="public/screenshots/mobile-login.png" alt="Mobile Login" width="300"/>
+
+#### Dashboard Mobile
+<img src="public/screenshots/mobile-dashboard-index.png" alt="Mobile Dashboard" width="300"/>
+
+#### Dettaglio Mobile
+<img src="public/screenshots/mobile-dashboard-show.png" alt="Mobile Show" width="300"/>
+
+#### Modifica Mobile
+<img src="public/screenshots/mobile-dashboard-edit.png" alt="Mobile Edit" width="300"/>
+
+</div>
 
 ---
 
