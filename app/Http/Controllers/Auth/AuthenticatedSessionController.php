@@ -27,7 +27,9 @@ class AuthenticatedSessionController extends Controller
         $request->authenticate();
 
         $request->session()->regenerate();
+        
 
+        //l'ho modificato in modo da reindirizzare direttamente alla overview dei giochi (index) dopo il login
         return redirect()->intended(route('games.index', absolute: false));
     }
 

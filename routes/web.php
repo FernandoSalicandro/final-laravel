@@ -4,9 +4,10 @@ use App\Http\Controllers\GamesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+//ho modificato la prima route di default che mandava alla dashboard in modo che l'utente sia indirizzato direttamente alla pagina di login
 Route::get('/', function () {
     return view('auth.login');
-});
+})->name('login');
 
 Route::get('/dashboard', function () {
     return redirect()->route('games.index');
