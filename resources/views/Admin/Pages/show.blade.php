@@ -45,7 +45,7 @@
    {{-- Piattaforma --}}
    <div class="w-full flex flex-col mt-5 p-3">
     <h3 class="text-lg font-semibold">Piattaforme</h3>
-    <div class="w-full grid grid-cols-8 gap-2 mt-2">
+    <div class="w-full grid grid-cols-2 lg:grid-cols-8 gap-2 mt-2">
         @foreach($game->consoles as $currentConsole)
             <span class="bg-indigo-300 rounded-lg py-2 text-center">{{$currentConsole->name}}</span>
         @endforeach
