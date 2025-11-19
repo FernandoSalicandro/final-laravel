@@ -113,7 +113,7 @@ class GamesController extends Controller
             'genre_id' => 'required|exists:genres,id',
             'consoles' => 'nullable|array',
             'consoles.*' => 'exists:consoles,id',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif',
         ]);
 
         // Carico il gioco

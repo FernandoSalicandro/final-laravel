@@ -12,3 +12,4 @@ Route::get('/games', [ApiController::class,'index']);
 Route::get('/games/{id}', [ApiController::class, 'show']);
 
 
+
