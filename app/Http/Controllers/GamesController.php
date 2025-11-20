@@ -15,11 +15,11 @@ class GamesController extends Controller
      */
     public function index()
     {
-        // Prendo tutti i giochi con relazioni (Eager loading --> approfondire)
+        // Prendo tutti i giochi con relazioni
         // Li ordino per titolo tramite funzione orderBy() ,Aggiungo paginazione tramite funzione paginate() per performance
         $allGames = Game::with(['genre', 'consoles'])
             ->orderBy('title', 'asc')
-            ->paginate(20);
+            ->paginate(3);
         $totalGames = Game::count();
 
         return view('Admin.Pages.index', compact('allGames', 'totalGames'));

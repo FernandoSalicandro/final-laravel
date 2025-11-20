@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- Messaggio di successo --}}
-    @if(session('success'))
+    @if (session('success'))
         <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
             {{ session('success') }}
         </div>
@@ -32,7 +32,7 @@
                         <td class="text-left">{{ $currentGame->title }}</td>
                         <td class="text-left">{{ Str::limit($currentGame->description, 30) }}</td>
                         <td class="flex gap-2 justify-end">
-                          <x-ui.utils.showBtn :currentGame="$currentGame" />
+                            <x-ui.utils.showBtn :currentGame="$currentGame" />
                             <x-ui.utils.delete-button :currentGame="$currentGame" />
                         </td>
                     </tr>
@@ -41,6 +41,12 @@
         </table>
 
         {{-- Fine Tabella Giochi --}}
+
+        {{-- Paginazione --}}
+        <div class="mt-4">
+            {{ $allGames->links() }}
+        </div>
+        {{-- Fine Paginazione --}}
 
     </div>
 

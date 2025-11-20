@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Gameverse</title>
+
+        <!-- Favicon -->
+        <link rel="icon" href="{{ asset('joystick.png') }}" type="image/png">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
