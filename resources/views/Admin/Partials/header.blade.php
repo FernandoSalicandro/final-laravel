@@ -4,7 +4,7 @@
             {{-- Logo mobile (visibile solo quando sidebar è nascosta) --}}
             <div class="hidden max-sm:flex items-center gap-2">
                 <x-ui.icon.gamepad class="stroke-blue-500 flex-shrink-0" />
-                <span class="font-semibold text-base">GameStore</span>
+                <span class="font-semibold text-base">Gameverse</span>
             </div>
             {{-- Titolo normale --}}
             <h2 class="font-medium text-gray-700 max-sm:hidden">Gestione VideoGiochi</h2>

@@ -22,7 +22,7 @@
             <div>
                 <a href="/" class="flex gap-3 items-center">
                     <x-ui.icon.gamepad class='size-[100px]' />
-                    <span class="text-4xl">GameStore Admin Panel</span>
+                    <span class="text-4xl">Gameverse Admin Panel</span>
                 </a>
             </div>
 

@@ -2,7 +2,7 @@
     {{-- Intestazione sidebar --}}
     <div class="topSide w-full h-[80px] p-5 border-b border-b-gray-300 flex justify-center items-center gap-3">
         <x-ui.icon.gamepad class="stroke-blue-500 flex-shrink-0" />
-        <h1 class="font-semibold text-[14px] max-md:hidden">GameStore Admin</h1>
+        <h1 class="font-semibold text-[14px] max-md:hidden">Gameverse Admin</h1>
     </div>
     {{-- Fine intestazione sidebar --}}
 
